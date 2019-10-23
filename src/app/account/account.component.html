@@ -1,0 +1,51 @@
+<section class="category">
+    <div class="col-md-12">
+        <div class="row clearfix mt-5">
+            <div class="col-md-2">
+                <ul style="list-style-type: none;">
+
+                    <li>
+                        <h6 class="mt-0 mb-0 mt-3"><a [routerLink]="['/account']">Account</a></h6>
+                    </li>
+                    <li><a [routerLink]="['/account']">Account Details</a></li>
+                    <li><a [routerLink]="['/email']">Email Preferences</a></li>
+                    <li><a [routerLink]="['/order']">Order History</a></li>
+                    <li><a [routerLink]="['/addresses']">Addresses</a></li>
+                    <li><a [routerLink]="['/login']">Logout</a></li>
+                </ul>
+            </div>
+            <div class="col-md-8">
+                <div class="col-md-12">
+                    <h6 class="text-center">Account Details</h6>
+                </div>
+                <p>Edit your preferences below.</p>
+                <h6>Account Information</h6>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputName">Name</label>
+                        <input type="name" class="form-control" placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName">Last Name</label>
+                        <input type="name" class="form-control" placeholder="Enter last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <h6>Account Password</h6>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Old Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword2">New Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-dark">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

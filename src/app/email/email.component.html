@@ -1,0 +1,70 @@
+<section class="category">
+    <div class="col-md-12">
+        <div class="row clearfix mt-5">
+            <div class="col-md-2">
+                <ul style="list-style-type: none;">
+
+                    <li>
+                        <h6 class="mt-0 mb-0 mt-3"><a [routerLink]="['/account']">Account</a></h6>
+                    </li>
+                    <li><a [routerLink]="['/account']">Account Details</a></li>
+                    <li><a [routerLink]="['/email']">Email Preferences</a></li>
+                    <li><a [routerLink]="['/order']">Order History</a></li>
+                    <li><a [routerLink]="['/addresses']">Addresses</a></li>
+                    <li><a [routerLink]="['/login']">Logout</a></li>
+                </ul>
+            </div>
+            <div class="col-md-8">
+                <div class="col-md-12">
+                    <h6 class="text-center">Email Preferences</h6>
+                </div>
+                <form>
+                    <div><label for="exampleInputName">Newsletters</label></div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                                  <input type="radio" class="form-check-input" name="optradio">Subscribed
+                                </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                                  <input type="radio" class="form-check-input" name="optradio">Unsubscribed
+                                </label>
+                    </div>
+                    <small id="emailHelp" class="form-text text-muted">Sign up for email updates and promotions, tailored to your preferences.</small>
+                    <h6>Preferences</h6>
+                    <div><label for="exampleInputName">Gender</label></div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                                  <input type="radio" class="form-check-input" name="optradio">Men
+                                </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                                  <input type="radio" class="form-check-input" name="optradio">Women
+                                </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName">Language</label>
+                        <input type="name" class="form-control" placeholder="Enter last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName">Country/Region</label>
+                        <input type="name" class="form-control" placeholder="Enter last name">
+                    </div>
+                    <div><label for="exampleInputName">Notifications</label></div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                                  <input type="radio" class="form-check-input" name="optradio">On
+                                </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                                  <input type="radio" class="form-check-input" name="optradio">Off
+                                </label>
+                    </div>
+                    <small id="emailHelp" class="form-text text-muted">Sign up for notifications about products in your Wishlist and Shopping Bag.</small>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
