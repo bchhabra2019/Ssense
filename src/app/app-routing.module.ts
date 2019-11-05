@@ -120,6 +120,35 @@ import { ZipupComponent } from './men/categories/shoes/boots/zipup/zipup.compone
 import { FlipFlopsComponent } from './men/categories/shoes/sandals/flip-flops/flip-flops.component';
 import { HighTopSneakersComponent } from './men/categories/shoes/sneakers/high-top-sneakers/high-top-sneakers.component';
 import { LowTopSneakersComponent } from './men/categories/shoes/sneakers/low-top-sneakers/low-top-sneakers.component';
+import { FooterComponent } from './footer/footer.component';
+import { AffiliatesComponent } from './footer/affiliates/affiliates.component';
+import { CareersComponent } from './footer/careers/careers.component';
+import { CustomercareComponent } from './footer/customercare/customercare.component';
+import { PrivacyComponent } from './footer/privacy/privacy.component';
+import { SitemapComponent } from './footer/sitemap/sitemap.component';
+import { TermsComponent } from './footer/terms/terms.component';
+import { ViewallComponent } from './footer/viewall/viewall.component';
+import { MontrealComponent } from './footer/montreal/montreal.component';
+import { AccessibilityComponent } from './footer/customercare/accessibility/accessibility.component';
+import { ContactComponent } from './footer/customercare/contact/contact.component';
+import { CorporateComponent } from './footer/customercare/corporate/corporate.component';
+import { CouponsComponent } from './footer/customercare/coupons/coupons.component';
+import { HelpComponent } from './footer/customercare/help/help.component';
+import { ManagingComponent } from './footer/customercare/managing/managing.component';
+import { MastheadComponent } from './footer/customercare/masthead/masthead.component';
+import { PaymentinformationComponent } from './footer/customercare/paymentinformation/paymentinformation.component';
+import { ProductinformationComponent } from './footer/customercare/productinformation/productinformation.component';
+import { PriceprotectionPolicyComponent } from './footer/customercare/priceprotection-policy/priceprotection-policy.component';
+import { ReturnpolicyComponent } from './footer/customercare/returnpolicy/returnpolicy.component';
+import { ShippingComponent } from './footer/customercare/shipping/shipping.component';
+import { YourorderComponent } from './footer/customercare/yourorder/yourorder.component';
+import { EditorialComponent } from './footer/editorial/editorial.component';
+import { ArtComponent } from './footer/editorial/art/art.component';
+import { CultureComponent } from './footer/editorial/culture/culture.component';
+import { FashionComponent } from './footer/editorial/fashion/fashion.component';
+import { MarketComponent } from './footer/editorial/market/market.component';
+import { MusicComponent } from './footer/editorial/music/music.component';
+import { ProductCurationComponent } from './footer/editorial/product-curation/product-curation.component';
 
  
 const routes: Routes = [
@@ -237,12 +266,41 @@ const routes: Routes = [
             { path: 'women', component: WomenComponent },
             { path: 'search', component: SearchComponent },
             { path: 'login', component: LoginComponent },
+            { path: 'account', component: AccountComponent },
             { path: 'email', component: EmailComponent },
             { path: 'order', component: OrderComponent },
             { path: 'addresses', component: AddressesComponent },
             { path: 'wishlist', component: WishlistComponent },
             { path: 'bag', component: BagComponent },
-            { path: 'account', component: AccountComponent }
+            { path: 'footer', component: FooterComponent },
+                { path: 'affiliates', component: AffiliatesComponent },
+                { path: 'careers', component: CareersComponent },
+                { path: 'customercare', component: CustomercareComponent },
+                { path: 'privacy', component: PrivacyComponent },
+                { path: 'sitemap', component: SitemapComponent },
+                { path: 'terms', component: TermsComponent },
+                { path: 'viewall', component: ViewallComponent },
+                { path: 'accessibility', component: AccessibilityComponent },
+                { path: 'contact-us', component: ContactComponent },
+                { path: 'corporate-responsibility', component: CorporateComponent },
+                { path: 'coupons', component: CouponsComponent },
+                { path: 'help', component: HelpComponent },
+                { path: 'manage-account', component: ManagingComponent },
+                { path: 'masthead', component: MastheadComponent },
+                { path: 'paymentinformation', component: PaymentinformationComponent },
+                { path: 'productinformation', component: ProductinformationComponent },
+                { path: 'priceprotection-policy', component: PriceprotectionPolicyComponent },
+                { path: 'returnpolicy', component: ReturnpolicyComponent },
+                { path: 'shipping', component: ShippingComponent },
+                { path: 'yourorder', component: YourorderComponent },
+                { path: 'editorial', component: EditorialComponent },
+                    { path: 'editorial/art', component: ArtComponent },
+                    { path: 'editorial/culture', component: CultureComponent },
+                    { path: 'editorial/fashion', component: FashionComponent },
+                    { path: 'editorial/market', component: MarketComponent },
+                    { path: 'editorial/music', component: MusicComponent },
+                    { path: 'editorial/product-curation', component: ProductCurationComponent },
+                { path: 'locations/montreal', component: MontrealComponent }
           ];
  
 @NgModule({

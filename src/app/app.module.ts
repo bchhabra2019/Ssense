@@ -125,6 +125,35 @@ import { ZipupComponent } from './men/categories/shoes/boots/zipup/zipup.compone
 import { FlipFlopsComponent } from './men/categories/shoes/sandals/flip-flops/flip-flops.component';
 import { HighTopSneakersComponent } from './men/categories/shoes/sneakers/high-top-sneakers/high-top-sneakers.component';
 import { LowTopSneakersComponent } from './men/categories/shoes/sneakers/low-top-sneakers/low-top-sneakers.component';
+import { FooterComponent } from './footer/footer.component';
+import { CustomercareComponent } from './footer/customercare/customercare.component';
+import { CareersComponent } from './footer/careers/careers.component';
+import { AffiliatesComponent } from './footer/affiliates/affiliates.component';
+import { SitemapComponent } from './footer/sitemap/sitemap.component';
+import { ViewallComponent } from './footer/viewall/viewall.component';
+import { PrivacyComponent } from './footer/privacy/privacy.component';
+import { TermsComponent } from './footer/terms/terms.component';
+import { MontrealComponent } from './footer/montreal/montreal.component';
+import { ProductinformationComponent } from './footer/customercare/productinformation/productinformation.component';
+import { PaymentinformationComponent } from './footer/customercare/paymentinformation/paymentinformation.component';
+import { YourorderComponent } from './footer/customercare/yourorder/yourorder.component';
+import { ShippingComponent } from './footer/customercare/shipping/shipping.component';
+import { ReturnpolicyComponent } from './footer/customercare/returnpolicy/returnpolicy.component';
+import { CouponsComponent } from './footer/customercare/coupons/coupons.component';
+import { PriceprotectionPolicyComponent } from './footer/customercare/priceprotection-policy/priceprotection-policy.component';
+import { CorporateComponent } from './footer/customercare/corporate/corporate.component';
+import { ManagingComponent } from './footer/customercare/managing/managing.component';
+import { ContactComponent } from './footer/customercare/contact/contact.component';
+import { MastheadComponent } from './footer/customercare/masthead/masthead.component';
+import { AccessibilityComponent } from './footer/customercare/accessibility/accessibility.component';
+import { HelpComponent } from './footer/customercare/help/help.component';
+import { EditorialComponent } from './footer/editorial/editorial.component';
+import { ArtComponent } from './footer/editorial/art/art.component';
+import { CultureComponent } from './footer/editorial/culture/culture.component';
+import { FashionComponent } from './footer/editorial/fashion/fashion.component';
+import { MarketComponent } from './footer/editorial/market/market.component';
+import { MusicComponent } from './footer/editorial/music/music.component';
+import { ProductCurationComponent } from './footer/editorial/product-curation/product-curation.component';
 
 
 @NgModule({
@@ -249,7 +278,36 @@ import { LowTopSneakersComponent } from './men/categories/shoes/sneakers/low-top
     ZipupComponent,
     FlipFlopsComponent,
     HighTopSneakersComponent,
-    LowTopSneakersComponent
+    LowTopSneakersComponent,
+    FooterComponent,
+    CustomercareComponent,
+    CareersComponent,
+    AffiliatesComponent,
+    SitemapComponent,
+    ViewallComponent,
+    PrivacyComponent,
+    TermsComponent,
+    MontrealComponent,
+    ProductinformationComponent,
+    PaymentinformationComponent,
+    YourorderComponent,
+    ShippingComponent,
+    ReturnpolicyComponent,
+    CouponsComponent,
+    PriceprotectionPolicyComponent,
+    CorporateComponent,
+    ManagingComponent,
+    ContactComponent,
+    MastheadComponent,
+    AccessibilityComponent,
+    HelpComponent,
+    EditorialComponent,
+    ArtComponent,
+    CultureComponent,
+    FashionComponent,
+    MarketComponent,
+    MusicComponent,
+    ProductCurationComponent
   ],
   imports: [
     FormsModule,

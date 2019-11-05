@@ -1,0 +1,94 @@
+<div id="wrapper">
+    <div class="container">
+        <!--Header-->
+
+        <footer class="blog-footer py-3 mt-5">
+            <div class="row flex-nowrap align-items-center">
+                <div class="col-12">
+                    <ul class="nav">
+                        <li class="nav-item dropup search">
+                            <a class="nav-link  dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" href="#">COUNTRY/REGION:INDIA</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <div class="search-men">
+                                    <input type="text" class="dropdown-item" placeholder="SEARCH COUNTRY/REGION">
+                                </div>
+                                <div class="selectOption text-center">
+                                    <a class="dropdown-item" [routerLink]="['/viewall']">VIEW ALL</a>
+                                    <a class="dropdown-item" [routerLink]="['/terms']">INDIA</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropup search">
+                            <a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" href="#">NEWSLETTER SIGNUP</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <p class="text-center mb-3">Sign up for email updates and promotions</p>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+                                </div>
+                                <div class="form-check-inline">
+                                    <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="optradio">Men
+                                    </label>
+                                </div>
+                                <div class="form-check-inline">
+                                    <label class="form-check-label mb-3">
+                                         <input type="radio" class="form-check-input" name="optradio">Women
+                                    </label>
+                                </div>
+                                <a [routerLink]="['/']" class="button button-secondary" role="button">SUBSCRIBE</a>
+                                <p class="text-center mt-3">You may unsubscribe at any time.</p>
+                                <p class="text-center">To find out more, please visit our <a [routerLink]="['/privacy']">Privacy Policy.</a></p>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" [routerLink]="['/customercare']">CUSTOMER CARE</a>
+                        </li>
+                        <li class="nav-item dropup search">
+                            <a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" href="#">LOCATIONS</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <div class="selectOption text-center">
+                                    <a class="dropdown-item" [routerLink]="['locations/montreal']">SSENSE MONTRÉAL</a>
+                                    <a class="dropdown-item" [routerLink]="['']">APPOINTMENTS</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" [routerLink]="['/editorial']">EDITORIAL ARCHIVE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" [routerLink]="['/careers']">CAREERS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" [routerLink]="['/affiliates']">AFFILIATES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" [routerLink]="['/sitemap']">SITEMAP</a>
+                        </li>
+                        <li><a aria-label="facebook" target="_blank" href="//www.facebook.com/SSENSEofficial" class="i facebook"><i class="fa fa-facebook fa-fw mt-2"></i></a></li>
+                        <li><a aria-label="twitter" target="_blank" href="//twitter.com/ssense" class="i twitter"><i class="fa fa-twitter fa-fw mt-2"></i></a></li>
+                        <li><a aria-label="instagram" target="_blank" href="//instagram.com/ssense" class="i instagram"><i class="fa fa-instagram fa-fw mt-2"></i></a></li>
+                        <li><a aria-label="youtube" target="_blank" href="//www.youtube.com/user/ssense" class="i youtube"><i class="fa fa-youtube fa-fw mt-2"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-12">
+                <ul class="nav">
+                    <li class="nav-item design">
+                        <a class="nav-link">&copy; 2019 ssense.com</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link design" [routerLink]="['/terms']">Terms & Conditions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link design" [routerLink]="['/privacy']">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+
+        </footer>
+
+        <!--header//end-->
+
+    </div>
+</div>

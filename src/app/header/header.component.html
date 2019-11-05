@@ -9,9 +9,7 @@
                         <li class="nav-item">
                             <a class="nav-link" routerLink="men">MEN</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" routerLink="women">WOMEN</a>
-                        </li>
+                        <li><a class="nav-link" (click)="aboutPageLoad()" routerLinkActive="active">WOMEN</a></li>
                         <li class="nav-item dropdown search">
                             <a class="nav-link  dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" href="#">SEARCH</a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -31,12 +29,13 @@
                 </div>
                 <div class="col-5 d-flex justify-content-end align-items-center">
                     <ul class="nav">
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown search">
                             <a class="nav-link  dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" href="#">ENGLISH</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-menu drop" aria-labelledby="dropdownMenuButton">
+                                <div class="selectOption">
+                                    <a class="dropdown-item" routerLink="">ENGLISH</a>
+                                    <a class="dropdown-item" routerLink="">HINDI</a>
+                                </div>
                             </div>
                         </li>
                         <li class="nav-item">
